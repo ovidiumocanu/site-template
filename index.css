@@ -1,0 +1,73 @@
+/* Extra small devices(portrait phones) */
+@media (max-width: 576px) {
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .first-advertisment {
+    width: 70% !important;
+  }
+
+  .imdb-logo {
+    width: 100% !important;
+  }
+
+  .second-advertisment {
+    width: 70% !important;
+  }
+
+  .header-button {
+    height: 50px;
+  }
+
+  .search-form {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-form > * {
+    padding: 0 !important;
+    margin-right: 10px;
+  }
+
+  .spotlight-container {
+    justify-content: center;
+  }
+
+  .first-row-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .content-container {
+    width: 90%;
+  }
+
+  .picture-container {
+    width: 40% !important;
+    gap: 10px !important;
+  }
+
+  a{
+    font-size: 0.8rem !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
